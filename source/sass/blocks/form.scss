@@ -1,0 +1,123 @@
+.form {
+    background-image: url("../img/form-back.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.form_container_main_order_program_form {
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+
+.main_order_program_form-caption {
+    display: none;
+}
+
+.collapse_trigger {
+    display: none;
+}
+
+.form-item-company {
+    display: none;
+}
+
+.form-item-company-check {
+    display: none;
+}
+
+.form-item-person-check {
+    display: none;
+}
+
+.person_wrapper .cap {
+    display: none;
+}
+
+.form-item-fio label {
+    display: none;
+}
+
+.form-item-phone label {
+    display: none;
+}
+
+.form-item-email label {
+    display: none;
+}
+
+.form-item-specialnost {
+    display: none;
+}
+
+#main-order-program-form {
+    max-width: 752px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(234, 236, 235, 0.5);
+    padding-bottom: 40px;
+}
+
+.form_caption_title {
+    color: #000000;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.form-type-textfield input {
+    width: 100%;
+    height: 37px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.form-type-textfield input::placeholder {
+    color: #000000;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.collapse_helper_wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input[type="submit"i] {
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    height: 41px;
+    border-radius: 2px;
+    background-color: #ef4035;
+    color: #ffffff;
+    display: inline-block;
+    border: none;
+    outline: none;
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+
+input[type="submit"i]:hover {
+    background-color: white;
+    color: #ef4035;
+    position: relative;
+    border: 2px solid #ef4035;
+}
+
+input[type="submit"i]:active {
+    position: relative;
+    top: 2px;
+}

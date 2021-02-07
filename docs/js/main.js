@@ -1,0 +1,2 @@
+const anchors=[].slice.call(document.querySelectorAll('a[href*="#"]')),animationTime=1200,framesCount=100;anchors.forEach(function(o){o.addEventListener("click",function(e){e.preventDefault();var t=document.querySelector(o.getAttribute("href")).getBoundingClientRect().top+window.pageYOffset;let n=setInterval(function(){var e=t/framesCount;e>window.pageYOffset-t&&window.innerHeight+window.pageYOffset<document.body.offsetHeight?window.scrollBy(0,e):(window.scrollTo(0,t),clearInterval(n))},animationTime/framesCount)})});
+//# sourceMappingURL=main.js.map

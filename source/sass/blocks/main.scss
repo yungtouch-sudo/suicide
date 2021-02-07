@@ -1,0 +1,122 @@
+.main {
+    background-image: url("../img/main-back.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 338px;
+}
+
+.main__title {
+    color: #002c53;
+    font-family: inherit;
+    font-size: 46px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+    padding-top: 55px;
+    line-height: 100%;
+}
+
+.main__text {
+    color: #000000;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0px;
+    max-width: 400px;
+    padding-top: 20px;
+}
+
+.main__signup {
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    display: inline-block;
+    padding: 7px 31px 6px 31px;
+    border-radius: 2px;
+    background-color: #ef4035;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.main__signup:hover {
+    background-color: white;
+    color: #ef4035;
+    position: relative;
+    border: 2px solid #ef4035;
+}
+
+.main__signup:active {
+    position: relative;
+    top: 2px;
+ 
+}
+
+@media (max-width: 1199px) {
+    .main__title {
+        width: 100%;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 80px;
+    }
+
+    .main__wrapper {
+        text-align: center;
+    }
+
+    .main__text {
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main__signup {
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 902px) {
+    .main {
+        min-height: 372px;
+    }
+
+
+    @media (max-width: 803px) {
+        .main__title {
+            padding-top: 65px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .main__title {
+            font-size: 30px;
+            margin-left: 0;
+            margin-right: auto;
+            padding-top: 110px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .main__text {
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+        }
+
+        .main__signup {
+            margin-left: 0;
+        }
+
+    }
+}
+
+@media (max-width: 496px) {
+    .main__title {
+        padding-top: 80px;
+    }
+}

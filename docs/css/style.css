@@ -1,0 +1,1305 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  /* 2 */ }
+
+/* Sections
+       ========================================================================== */
+/**
+     * Remove the margin in all browsers.
+     */
+body {
+  margin: 0; }
+
+/**
+     * Render the `main` element consistently in IE.
+     */
+main {
+  display: block; }
+
+/**
+     * Correct the font size and margin on `h1` elements within `section` and
+     * `article` contexts in Chrome, Firefox, and Safari.
+     */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+       ========================================================================== */
+/**
+     * 1. Add the correct box sizing in Firefox.
+     * 2. Show the overflow in Edge and IE.
+     */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+pre {
+  font-family: monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+       ========================================================================== */
+/**
+     * Remove the gray background on active links in IE 10.
+     */
+a {
+  background-color: transparent; }
+
+/**
+     * 1. Remove the bottom border in Chrome 57-
+     * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+     */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+     * Add the correct font weight in Chrome, Edge, and Safari.
+     */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+     * 1. Correct the inheritance and scaling of font size in all browsers.
+     * 2. Correct the odd `em` font sizing in all browsers.
+     */
+code,
+kbd,
+samp {
+  font-family: monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+     * Add the correct font size in all browsers.
+     */
+small {
+  font-size: 80%; }
+
+/**
+     * Prevent `sub` and `sup` elements from affecting the line height in
+     * all browsers.
+     */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+       ========================================================================== */
+/**
+     * Remove the border on images inside links in IE 10.
+     */
+img {
+  border-style: none; }
+
+/* Forms
+       ========================================================================== */
+/**
+     * 1. Change the font styles in all browsers.
+     * 2. Remove the margin in Firefox and Safari.
+     */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+     * Show the overflow in IE.
+     * 1. Show the overflow in Edge.
+     */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+     * Remove the inheritance of text transform in Edge, Firefox, and IE.
+     * 1. Remove the inheritance of text transform in Firefox.
+     */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+     * Correct the inability to style clickable types in iOS and Safari.
+     */
+/**
+     * Remove the inner border and padding in Firefox.
+     */
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+     * Restore the focus styles unset by the previous rule.
+     */
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
+button:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+     * Correct the padding in Firefox.
+     */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+     * 1. Correct the text wrapping in Edge and IE.
+     * 2. Correct the color inheritance from `fieldset` elements in IE.
+     * 3. Remove the padding so developers are not caught out when they zero out
+     *    `fieldset` elements in all browsers.
+     */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+     * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+     */
+progress {
+  vertical-align: baseline; }
+
+/**
+     * Remove the default vertical scrollbar in IE 10+.
+     */
+textarea {
+  overflow: auto; }
+
+/**
+     * 1. Add the correct box sizing in IE 10.
+     * 2. Remove the padding in IE 10.
+     */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+     * Correct the cursor style of increment and decrement buttons in Chrome.
+     */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+     * 1. Correct the odd appearance in Chrome and Safari.
+     * 2. Correct the outline style in Safari.
+     */
+[type="search"] {
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+     * Remove the inner padding in Chrome and Safari on macOS.
+     */
+/**
+     * 1. Correct the inability to style clickable types in iOS and Safari.
+     * 2. Change font properties to `inherit` in Safari.
+     */
+/* Interactive
+       ========================================================================== */
+/*
+     * Add the correct display in Edge, IE 10+, and Firefox.
+     */
+details {
+  display: block; }
+
+/*
+     * Add the correct display in all browsers.
+     */
+summary {
+  display: list-item; }
+
+/* Misc
+       ========================================================================== */
+/**
+     * Add the correct display in IE 10+.
+     */
+template {
+  display: none; }
+
+/**
+     * Add the correct display in IE 10.
+     */
+[hidden] {
+  display: none; }
+
+/*Exo2 Regular*/
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/Exo2-Regular.woff2") format("woff2"), url("../fonts/Exo2-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+/*Exo2 bold*/
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/Exo2-bold.woff2") format("woff2"), url("../fonts/Exo2-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: bold; }
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  font-family: "Exo2", "Arial", sans-serif;
+  color: #111111; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%); }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 220px; }
+  @media (max-width: 1199px) {
+    .container {
+      min-width: 768px;
+      padding: 0 45px; } }
+  @media (max-width: 767px) {
+    .container {
+      min-width: 320px;
+      padding: 0 15px; } }
+
+.main {
+  background-image: url("../img/main-back.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 338px; }
+
+.main__title {
+  color: #002c53;
+  font-family: inherit;
+  font-size: 46px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+  padding-top: 55px;
+  line-height: 100%; }
+
+.main__text {
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px;
+  max-width: 400px;
+  padding-top: 20px; }
+
+.main__signup {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  display: inline-block;
+  padding: 7px 31px 6px 31px;
+  border-radius: 2px;
+  background-color: #ef4035;
+  text-decoration: none;
+  margin-top: 20px; }
+
+.main__signup:hover {
+  background-color: white;
+  color: #ef4035;
+  position: relative;
+  border: 2px solid #ef4035; }
+
+.main__signup:active {
+  position: relative;
+  top: 2px; }
+
+@media (max-width: 1199px) {
+  .main__title {
+    width: 100%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px; }
+  .main__wrapper {
+    text-align: center; }
+  .main__text {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .main__signup {
+    text-transform: uppercase; } }
+
+@media (max-width: 902px) {
+  .main {
+    min-height: 372px; } }
+
+@media (max-width: 902px) and (max-width: 803px) {
+  .main__title {
+    padding-top: 65px; } }
+
+@media (max-width: 902px) and (max-width: 767px) {
+  .main__title {
+    font-size: 30px;
+    margin-left: 0;
+    margin-right: auto;
+    padding-top: 110px;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .main__text {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto; }
+  .main__signup {
+    margin-left: 0; } }
+
+@media (max-width: 496px) {
+  .main__title {
+    padding-top: 80px; } }
+
+.course {
+  margin-top: 43px; }
+
+.course__title {
+  color: #000000;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0; }
+
+.course__text {
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+  padding-top: 25px; }
+
+.course__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding-top: 48px;
+  padding-left: 0; }
+
+.course__item {
+  width: 330px;
+  padding-left: 60px;
+  position: relative;
+  min-height: 84px; }
+
+.course__item:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/course1.png");
+  width: 40px;
+  height: 40px;
+  top: -10px;
+  left: 0; }
+
+.course__item:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/course2.png");
+  width: 40px;
+  height: 40px;
+  top: -10px;
+  left: 0; }
+
+.course__item:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/course3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #29abe1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: -10px;
+  left: 0; }
+
+.course__item:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/course4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #29abe1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: -10px;
+  left: 0; }
+
+.course__item:nth-child(5)::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/course5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #29abe1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: -10px;
+  left: 0; }
+
+.course__item:nth-child(6)::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/course6.png");
+  width: 40px;
+  height: 40px;
+  top: -10px;
+  left: 0; }
+
+.course__item_text {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0; }
+
+@media (max-width: 1199px) {
+  .course__item {
+    width: 50%; }
+  .course__title {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px; }
+  .course__text {
+    text-align: center; } }
+
+@media (max-width: 767px) {
+  .course__title {
+    font-size: 20px; }
+  .course__item {
+    padding-bottom: 20px;
+    width: 100%;
+    min-height: 60px; } }
+
+.program {
+  position: relative;
+  background-image: url("../img/program-back.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 43px;
+  padding-bottom: 32px; }
+  .program::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-gradient(linear, left top, right top, from(#12315b), to(rgba(19, 54, 89, 0)));
+    background-image: linear-gradient(to right, #12315b 0%, rgba(19, 54, 89, 0) 100%);
+    top: 0;
+    left: 0; }
+  .program::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 44, 83, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+
+.program__title {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  z-index: 1;
+  position: relative;
+  margin: 0;
+  padding-top: 28px; }
+
+.program__list {
+  list-style: none;
+  padding-top: 7px;
+  padding-left: 0; }
+
+.program__item {
+  padding-bottom: 20px; }
+
+.program__item_text {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  z-index: 1;
+  position: relative;
+  margin: 0; }
+
+.program__link {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  z-index: 1;
+  position: relative;
+  text-decoration: none;
+  border-radius: 2px;
+  background-color: #29abe1;
+  padding: 8px 35px 8px 35px;
+  display: inline-block;
+  border: 2px solid #29abe1; }
+
+.program__link:hover {
+  background-color: white;
+  color: #29abe1;
+  position: relative;
+  border: 2px solid  #29abe1; }
+
+.program__link:active {
+  position: relative;
+  top: 2px; }
+
+@media (max-width: 1199px) {
+  .program__wrapper {
+    text-align: center; }
+  .program__list {
+    max-width: 538px;
+    margin-left: auto;
+    margin-right: auto; }
+  .program__title {
+    text-align: center; } }
+
+.result__title {
+  color: #000000;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+  padding-top: 64px; }
+
+.result__item_text {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  color: #000000;
+  padding-left: 10px; }
+
+.result__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding-top: 100px; }
+
+.result__item {
+  padding-left: 5px;
+  padding-bottom: 70px;
+  width: 27%;
+  position: relative; }
+
+.result__item:nth-child(1) p {
+  border-left: 3px solid #2aabe1; }
+
+.result__item:nth-child(5) p {
+  border-left: 3px solid #2aabe1; }
+
+.result__item:nth-child(9) p {
+  border-left: 3px solid #2aabe1; }
+
+.result__item::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/result-darkblue.png");
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 43px;
+  top: -33px;
+  left: 10px; }
+
+.result__item:nth-child(2)::after {
+  background-image: url("../img/result-blue.png"); }
+
+.result__item:nth-child(6)::after {
+  background-image: url("../img/result-blue.png"); }
+
+.result__item:nth-child(7)::after {
+  background-image: url("../img/result-blue.png"); }
+
+@media (max-width: 767px) {
+  .result__item {
+    width: 100%;
+    padding-bottom: 35px;
+    padding-left: 59px; }
+  .result__item p {
+    min-height: 30px; }
+  .result__item_text {
+    padding-left: 0;
+    margin: 0; }
+  .result__item::after {
+    left: 3px;
+    top: -7px; }
+  .result__list {
+    padding-bottom: 50px;
+    padding-top: 40px; }
+  .result__item:nth-child(1) p {
+    border-left: none; }
+  .result__item:nth-child(5) p {
+    border-left: none; }
+  .result__item:nth-child(9) p {
+    border-left: none; } }
+
+.teachers {
+  background-color: #eaeceb;
+  min-height: 478px; }
+
+.teachers__title {
+  color: #000000;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+  padding-top: 38px; }
+
+.teachers__item_text {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  width: 243px;
+  height: 104px;
+  background-color: #002c53;
+  padding: 12px;
+  z-index: 1;
+  position: relative; }
+
+.teachers__item:nth-child(1) p {
+  padding-top: 28px;
+  padding-left: 7px;
+  padding-right: 6px;
+  padding-bottom: 8px; }
+
+.teachers__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding-top: 30px; }
+
+.teachers__item {
+  height: 380px;
+  position: relative; }
+
+.teachers__item:nth-child(2) {
+  margin-left: 40px; }
+
+.teachers__item_text:nth-child(2) {
+  position: absolute;
+  top: 215px;
+  left: 6px; }
+
+.teachers__item:nth-child(1) p {
+  left: 47px; }
+
+@media (max-width: 1199px) {
+  .teachers__title {
+    text-align: center; } }
+
+@media (max-width: 767px) {
+  .teachers__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .teachers__item {
+    margin-left: auto;
+    margin-right: auto; }
+  .teachers__item:nth-child(2) {
+    margin-left: auto; }
+  .teachers__item:nth-child(1) p {
+    left: -13px; }
+  .teachers__item:nth-child(2) p {
+    left: -3px; } }
+
+.advantages__title {
+  color: #000000;
+  font-family: inherit;
+  font-size: 25px;
+  font-style: italic;
+  text-align: left;
+  margin: 0;
+  padding-top: 75px; }
+
+.advantages__discount_value {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000; }
+
+.advantages__discount_text {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  color: #000000;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.advantages__discount_list {
+  list-style: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding-top: 80px; }
+
+.advantages__discount_item {
+  width: 33%;
+  text-align: center; }
+
+.advantages__gorodets {
+  padding-top: 6px;
+  padding-bottom: 24px; }
+
+.gorodets__medtech {
+  padding-top: 6px;
+  padding-bottom: 13px; }
+
+.advantages__payment_list {
+  list-style: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 75px; }
+
+.advantages__payment_item {
+  width: 48%;
+  height: 356px;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
+  background-color: #ffffff;
+  position: relative;
+  text-align: center; }
+  .advantages__payment_item::before {
+    position: absolute;
+    content: "";
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 29%, 0 39%);
+            clip-path: polygon(0 0, 100% 0, 100% 29%, 0 39%);
+    background-color: #29abe1;
+    width: 100%;
+    height: 256px;
+    top: 0;
+    left: 0; }
+
+.advantages__payment_item:nth-child(1) {
+  margin-right: 20px; }
+
+.advantages__payment_item:nth-child(2) {
+  margin-left: 20px; }
+
+.advantages__payment_price {
+  color: #29abe1;
+  font-family: inherit;
+  font-size: 46px;
+  font-style: italic;
+  padding-top: 77px;
+  margin: 0;
+  text-align: center; }
+
+.advantages__payment_info {
+  color: #000000;
+  font-family: inherit;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+  text-align: center;
+  padding-top: 14px;
+  padding-left: 15px; }
+
+.advantages__payment_info--old {
+  position: relative; }
+  .advantages__payment_info--old::before {
+    position: absolute;
+    content: "";
+    width: 128px;
+    height: 2px;
+    background-color: #ef4035;
+    top: 27px;
+    left: calc(50% - 55px); }
+
+.advantages__payment_order {
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 8px 25px 8px 25px;
+  margin-top: 41px; }
+
+.advantages__payment_order--order {
+  background-color: #ef4035;
+  color: white; }
+
+.advantages__payment_order--order:hover {
+  background-color: white;
+  color: #ef4035;
+  border: 2px solid #ef4035; }
+
+.advantages__payment_order--order:active {
+  position: relative;
+  top: 2px; }
+
+.advantages__payment_order--request {
+  border-radius: 2px;
+  border: 2px solid #ef4035;
+  background-color: white;
+  color: #ef4035;
+  padding: 8px 26px 6px 30px; }
+
+.advantages__payment_order--request:hover {
+  color: white;
+  background-color: #ef4035; }
+
+.advantages__payment_order--request:active {
+  position: relative;
+  top: 2px; }
+
+.advantages__payment_subtitle {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  margin: 0;
+  padding-top: 12px;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+@media (max-width: 1199px) {
+  .advantages__title {
+    padding-top: 70px;
+    text-align: center; }
+  .advantages__discount_list {
+    padding-top: 60px; }
+  .advantages__payment_item {
+    width: 50%;
+    margin-bottom: 50px; }
+  .advantages__payment_item:nth-child(1) {
+    margin-right: 20px; }
+  .advantages__payment_item:nth-child(1) p {
+    padding-left: 0;
+    padding-right: 0; }
+  .advantages__payment_item:nth-child(2) {
+    margin-left: 20px; }
+  .advantages__payment_subtitle {
+    font-size: 23px; }
+  .advantages__payment_item:nth-child(2) .advantages__payment_subtitle {
+    padding-left: 100px;
+    padding-right: 100px; }
+  .advantages__payment_info--old {
+    position: relative; }
+    .advantages__payment_info--old::before {
+      width: 111px; } }
+
+@media (max-width: 813px) {
+  .advantages__payment_item:nth-child(2) .advantages__payment_subtitle {
+    padding-left: 40px;
+    padding-right: 40px; } }
+
+@media (max-width: 767px) {
+  .advantages__discount_item {
+    width: 100%;
+    padding-bottom: 40px; }
+  .advantages__discount_list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 60px; }
+  .advantages__title {
+    padding-top: 70px; }
+  .advantages__gorodets {
+    padding-bottom: 0; }
+  .gorodets__medtech {
+    padding-bottom: 0; }
+  .advantages__payment_subtitle:nth-child(1) {
+    padding-right: 0;
+    padding-left: 0; }
+  .advantages__payment_list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .advantages__payment_item {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 25px; }
+  .advantages__payment_item:nth-child(2) {
+    margin-left: 0px;
+    margin-bottom: 0; } }
+
+.registration {
+  background-image: url("../img/form-back.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.registration__fieldset {
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(234, 236, 235, 0.5); }
+
+.registration__wrapper {
+  padding-top: 84px;
+  padding-bottom: 84px; }
+
+.registration__title {
+  color: #000000;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin: 0; }
+
+.registration__form {
+  max-width: 752px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.registration__input {
+  width: 100%;
+  height: 37px;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.registration__input::-webkit-input-placeholder {
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left; }
+
+.registration__input::-moz-placeholder {
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left; }
+
+.registration__input:-ms-input-placeholder {
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left; }
+
+.registration__input::-ms-input-placeholder {
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left; }
+
+.registration__input::placeholder {
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left; }
+
+.registration__submit {
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  height: 41px;
+  border-radius: 2px;
+  background-color: #ef4035;
+  color: #ffffff;
+  display: inline-block;
+  border: none;
+  outline: none;
+  margin-top: 28px;
+  cursor: pointer; }
+
+.registration__submit:hover {
+  background-color: white;
+  color: #ef4035;
+  position: relative;
+  border: 2px solid #ef4035; }
+
+.registration__submit:active {
+  position: relative;
+  top: 2px; }
+
+.form {
+  background-image: url("../img/form-back.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.form_container_main_order_program_form {
+  padding-top: 84px;
+  padding-bottom: 84px; }
+
+.main_order_program_form-caption {
+  display: none; }
+
+.collapse_trigger {
+  display: none; }
+
+.form-item-company {
+  display: none; }
+
+.form-item-company-check {
+  display: none; }
+
+.form-item-person-check {
+  display: none; }
+
+.person_wrapper .cap {
+  display: none; }
+
+.form-item-fio label {
+  display: none; }
+
+.form-item-phone label {
+  display: none; }
+
+.form-item-email label {
+  display: none; }
+
+.form-item-specialnost {
+  display: none; }
+
+#main-order-program-form {
+  max-width: 752px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(234, 236, 235, 0.5);
+  padding-bottom: 40px; }
+
+.form_caption_title {
+  color: #000000;
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center; }
+
+.form-type-textfield input {
+  width: 100%;
+  height: 37px;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.form-type-textfield input::-webkit-input-placeholder {
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left; }
+
+.form-type-textfield input::-moz-placeholder {
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left; }
+
+.form-type-textfield input:-ms-input-placeholder {
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left; }
+
+.form-type-textfield input::-ms-input-placeholder {
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left; }
+
+.form-type-textfield input::placeholder {
+  color: #000000;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left; }
+
+.collapse_helper_wrapper {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+input[type="submit" i] {
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  height: 41px;
+  border-radius: 2px;
+  background-color: #ef4035;
+  color: #ffffff;
+  display: inline-block;
+  border: none;
+  outline: none;
+  margin-top: 28px;
+  cursor: pointer; }
+
+input[type="submit" i]:hover {
+  background-color: white;
+  color: #ef4035;
+  position: relative;
+  border: 2px solid #ef4035; }
+
+input[type="submit" i]:active {
+  position: relative;
+  top: 2px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,290 @@
+.advantages__title {
+    color: #000000;
+    font-family: inherit;
+    font-size: 25px;
+    font-style: italic;
+    text-align: left;
+    margin: 0;
+    padding-top: 75px;
+}
+
+.advantages__discount_value {
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.advantages__discount_text {
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.advantages__discount_list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.advantages__discount_item {
+    width: 33%;
+    text-align: center;
+}
+
+.advantages__gorodets {
+    padding-top: 6px;
+    padding-bottom: 24px;
+}
+
+.gorodets__medtech {
+    padding-top: 6px;
+    padding-bottom: 13px;
+
+}
+
+.advantages__payment_list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.advantages__payment_item {
+    width: 48%;
+    height: 356px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.35);
+    background-color: #ffffff;
+    position: relative;
+    text-align: center;
+
+    &::before {
+        position: absolute;
+        content: "";
+        clip-path: polygon(0 0, 100% 0, 100% 29%, 0 39%);
+        background-color: #29abe1;
+        width: 100%;
+        height: 256px;
+        top: 0;
+        left: 0;
+    }
+}
+
+.advantages__payment_item:nth-child(1) {
+    margin-right: 20px;
+}
+
+.advantages__payment_item:nth-child(2) {
+    margin-left: 20px;
+}
+
+.advantages__payment_price {
+    color: #29abe1;
+    font-family: inherit;
+    font-size: 46px;
+    font-style: italic;
+    padding-top: 77px;
+    margin: 0;
+    text-align: center;
+}
+
+.advantages__payment_info {
+    color: #000000;
+    font-family: inherit;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+    padding-top: 14px;
+    padding-left: 15px;
+}
+
+.advantages__payment_info--old {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: 128px;
+        height: 2px;
+        background-color: #ef4035;
+        top: 27px;
+        left: calc(50% - 55px);
+
+    }
+}
+
+.advantages__payment_order {
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+
+    padding: 8px 25px 8px 25px;
+    margin-top: 41px;
+}
+
+.advantages__payment_order--order {
+    background-color: #ef4035;
+    color: white;
+}
+
+.advantages__payment_order--order:hover {
+    background-color: white;
+    color: #ef4035;
+    border: 2px solid #ef4035;
+}
+
+.advantages__payment_order--order:active {
+    position: relative;
+    top: 2px;
+}
+
+.advantages__payment_order--request {
+    border-radius: 2px;
+    border: 2px solid #ef4035;
+    background-color: white;
+    color: #ef4035;
+    padding: 8px 26px 6px 30px;
+}
+
+.advantages__payment_order--request:hover {
+    color: white;
+    background-color: #ef4035;
+}
+
+.advantages__payment_order--request:active {
+    position: relative;
+    top: 2px;
+}
+
+.advantages__payment_subtitle {
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    margin: 0;
+    padding-top: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media (max-width: 1199px) {
+    .advantages__title {
+        padding-top: 70px;
+        text-align: center;
+    }
+
+    .advantages__discount_list {
+        padding-top: 60px;
+    }
+
+    .advantages__payment_item {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .advantages__payment_item:nth-child(1) {
+        margin-right: 20px;
+    }
+
+    .advantages__payment_item:nth-child(1) p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .advantages__payment_item:nth-child(2) {
+        margin-left: 20px;
+    }
+
+    .advantages__payment_subtitle {
+        font-size: 23px;
+    }
+
+    .advantages__payment_item:nth-child(2) .advantages__payment_subtitle {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+
+    .advantages__payment_info--old {
+        position: relative;
+
+        &::before {
+            width: 111px;
+
+        }
+    }
+
+}
+
+@media (max-width: 813px) {
+    .advantages__payment_item:nth-child(2) .advantages__payment_subtitle {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .advantages__discount_item {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .advantages__discount_list {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .advantages__title {
+        padding-top: 70px;
+    }
+
+    .advantages__gorodets {
+        padding-bottom: 0;
+    }
+
+    .gorodets__medtech {
+        padding-bottom: 0;
+    }
+
+    .advantages__payment_subtitle:nth-child(1) {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .advantages__payment_list {
+        flex-direction: column;
+    }
+
+    .advantages__payment_item {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .advantages__payment_item:nth-child(2) {
+        margin-left: 0px;
+        margin-bottom: 0;
+    }
+}
